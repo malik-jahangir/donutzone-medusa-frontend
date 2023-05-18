@@ -106,7 +106,6 @@ const fetchFeaturedProducts = async (
 
 export const useFeaturedProductsQuery = () => {
   const { cart } = useCart()
-
   const queryResults = useQuery(
     ["layout_featured_products", cart?.id, cart?.region],
     () => fetchFeaturedProducts(cart?.id!, cart?.region!),
@@ -116,6 +115,5 @@ export const useFeaturedProductsQuery = () => {
       refetchOnWindowFocus: false,
     }
   )
-
   return queryResults
 }

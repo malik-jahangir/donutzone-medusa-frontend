@@ -5,7 +5,8 @@ import { MobileMenuProvider } from "@lib/context/mobile-menu-context"
 import { StoreProvider } from "@lib/context/store-context"
 import { Hydrate } from "@tanstack/react-query"
 import { CartProvider, MedusaProvider } from "medusa-react"
-import "styles/globals.css"
+// import "styles/globals.css"
+import 'styles/donut.scss'
 import { AppPropsWithLayout } from "types/global"
 
 function App({

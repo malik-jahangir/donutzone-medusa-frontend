@@ -39,7 +39,9 @@
     "react-hook-form": "^7.30.0",
     "react-instantsearch-hooks-web": "^6.29.0",
     "react-intersection-observer": "^9.3.4",
-    "sharp": "^0.30.7"
+    "sass": "^1.62.1",
+    "sharp": "^0.30.7",
+    "swiper": "^9.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
